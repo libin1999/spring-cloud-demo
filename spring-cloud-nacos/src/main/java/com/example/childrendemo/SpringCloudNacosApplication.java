@@ -6,11 +6,11 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ChildrenApplication {
+public class SpringCloudNacosApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(ChildrenApplication.class, args);
+        SpringApplication.run(SpringCloudNacosApplication.class, args);
     }
 
 }
